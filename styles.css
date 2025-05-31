@@ -1,0 +1,96 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    width: 100vw;
+    height: 100vh;
+    background-image: url(https://wallpapers.com/images/hd/windows-11-4k-mountain-landscape-fevvxz47yedg9hzs.jpg);
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+
+.cuadro{
+    width: 30vw;
+    height: 68vh;
+    border: 3px solid ;
+    border-radius: 10px;
+    background-color: rgba(226, 226, 226, 0.801);
+    padding: 20px;
+}
+.cuadro h1{
+    font-size: 26px;
+}
+.icono{
+    width: 2.5vw;
+    height: 4vh;
+    background-color: black;
+    border: 3px solid;
+    border-radius: 5px ;
+    margin:3px ;
+}
+
+.encabezado{
+    width: 30vw;
+    height:6vh ;
+    display: flex;
+    align-items: end;
+    margin-bottom: 25px;
+}
+.cuadro select {
+    height:6vh; /* o un valor controlado */
+    max-height: 70px;
+    width: 26vw;
+    border: 3px solid;
+    border-radius: 10px;
+    
+    font-size: 15px;
+}
+.subCuadro{
+    width:26vw;
+    height:30vh;
+    border:0px solid;
+    border-radius: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px ;
+    background-color:rgba(255, 255, 255, 0.801);
+}
+
+.subCuadro h2{
+    font-size: 20px;
+}
+
+.boton{
+    display: none;
+    width: 26vw;
+    height:8vh;
+    margin-top: 20px;
+    border: 0px solid;
+    border-radius:15px;
+    font-size: 10px;
+    color: rgb(255, 255, 255);
+    background-color: black;
+}
+
+.subCuadro_2{
+    width:26vw;
+    height:30vh;
+    padding: 10px;
+    border:0px solid;
+    border-radius: 15px;
+    margin-top: 20px ;
+    background-color:rgba(255, 255, 255, 0.801);
+    overflow: hidden;   
+}
+.subCuadro_2 p{
+    margin-top: 10px;
+}
+
